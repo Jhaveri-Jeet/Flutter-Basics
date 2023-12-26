@@ -29,12 +29,12 @@ class Buttons extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 90,
-      width: 90,
+      height: 80,
+      width: 80,
       child: FloatingActionButton(
         shape: const CircleBorder(eccentricity: 0.5),
         onPressed: () {
-          Vibration.vibrate(duration: 100);
+          Vibration.vibrate(duration: 80);
           if (btn == "C") {
             controller.text = "";
             return;
@@ -61,7 +61,7 @@ class Buttons extends StatelessWidget {
               visible: icon == null ? false : true,
               child: Icon(
                 icon,
-                size: 25,
+                size: 27,
                 color: textColor,
               ),
             ),
@@ -69,7 +69,7 @@ class Buttons extends StatelessWidget {
               visible: icon == null ? true : false,
               child: Text(
                 btn!,
-                style: TextStyle(fontSize: 25, color: textColor),
+                style: TextStyle(fontSize: 27, color: textColor),
               ),
             ),
           ],
