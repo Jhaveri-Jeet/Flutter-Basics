@@ -12,7 +12,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       title: "Demo Application",
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(fontFamily: GoogleFonts.raleway().fontFamily),
+      theme: ThemeData(fontFamily: GoogleFonts.notoSansTirhuta().fontFamily),
       home:
           const HomeView(), // This is the home view which will contain the code of home view [ This is like an component ]
     );

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 import 'package:math_expressions/math_expressions.dart';
 import 'package:vibration/vibration.dart';
 
@@ -34,7 +35,7 @@ class Buttons extends StatelessWidget {
       child: FloatingActionButton(
         shape: const CircleBorder(eccentricity: 0.5),
         onPressed: () {
-          Vibration.vibrate(duration: 80);
+          Vibration.vibrate(duration: 60);
           if (btn == "C") {
             controller.text = "";
             return;
@@ -46,6 +47,8 @@ class Buttons extends StatelessWidget {
               ContextModel cm = ContextModel();
               double result = exp.evaluate(EvaluationType.REAL, cm);
               controller.text = result.toString();
+              String formattedResult = NumberFormat('#,##0.##').format(result);
+              controller.text = formattedResult;
             } catch (e) {
               controller.text = "";
             }

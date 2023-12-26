@@ -156,7 +156,7 @@ class _NumberCalculatorState extends State<NumberCalculator> {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Buttons(
-                btn: "+/-",
+                btn: "00",
                 controller: inputFieldController,
               ),
               Buttons(
