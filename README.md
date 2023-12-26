@@ -1,18 +1,26 @@
-# Flutter Basics Repository - Calculator App
+# Flutter Basics Repository - Calculator & Ice Cream App
 
-Welcome to the Flutter Basics Repository! This repository serves as a beginner-friendly guide to understanding fundamental concepts in Flutter development. In this repository, we've implemented a simple calculator app with detailed comments to help you grasp key Flutter principles.
+Welcome to the Flutter Basics Repository! This repository is designed to guide beginners through fundamental concepts in Flutter development. We've implemented two apps in this repository: a simple calculator app and an ice cream app. The detailed comments provide clear explanations for each step in both app implementations.
 
-## Features
+## Calculator App Features
 
-- **Well-Commented Code:** Each section of the code is thoroughly documented, providing clear explanations for every step in the calculator app's implementation.
+- **Well-Commented Code:** Thorough documentation for each section of the code, offering clear explanations for the calculator app's implementation.
 
 - **Widget Architecture:** Explore Flutter's widget-based architecture, understanding how widgets are composed to create a dynamic user interface.
 
-- **State Management:** Learn about basic state management concepts in Flutter, seeing how the calculator app handles user input, updates, and displays results.
+- **State Management:** Learn basic state management concepts in Flutter, observing how the calculator app handles user input, updates, and displays results.
 
 - **Theming and Styling:** Discover how to apply themes and styles to enhance the visual appeal of your Flutter applications, including the use of colors, fonts, and layout principles.
 
 - **Responsive Design:** Explore the principles of responsive design in Flutter, ensuring your app adapts seamlessly to different screen sizes.
+
+## Ice Cream App Features
+
+- **List of Ice Creams:** Display a list of delicious ice creams in the app, showcasing various flavors.
+
+- **Details on Tapping:** Upon tapping on a specific ice cream, reveal details such as toppings and ingredients.
+
+- **Manual JSON Data:** Fetch data from a manually created JSON file stored in the assets folder.
 
 ## Getting Started
 
@@ -25,11 +33,18 @@ Welcome to the Flutter Basics Repository! This repository serves as a beginner-f
 2. **Navigate to the Project:**
 
    ```
-   cd flutter-basics/calculator_app
+   cd flutter-basics
    ```
 
-3. **Run the App:**
+3. **Run the Calculator App:**
    ```
+   cd calculator_app
+   flutter run
+   ```
+
+4. **Run the Ice Cream App:**
+   ```
+   cd ice_cream_app
    flutter run
    ```
 
