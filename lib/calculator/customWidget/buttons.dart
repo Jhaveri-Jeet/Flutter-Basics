@@ -35,7 +35,7 @@ class Buttons extends StatelessWidget {
       child: FloatingActionButton(
         shape: const CircleBorder(eccentricity: 0.5),
         onPressed: () {
-          Vibration.vibrate(duration: 60);
+          Vibration.vibrate(duration: 40);
           if (btn == "C") {
             controller.text = "";
             return;

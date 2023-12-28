@@ -119,6 +119,7 @@ class _NumberCalculatorState extends State<NumberCalculator> {
               Buttons(
                 btn: "-",
                 controller: inputFieldController,
+                icon: CupertinoIcons.minus,
               ),
             ],
           ),
