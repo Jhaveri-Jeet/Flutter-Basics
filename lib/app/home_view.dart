@@ -8,9 +8,9 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      backgroundColor: Colors.black, // Use this for calculator app
-      // backgroundColor: Colors.white, // Use this for icecream app
-      body: SafeArea(child: NumberCalculator()),
+      // backgroundColor: Colors.black, // Use this for calculator app
+      backgroundColor: Colors.white, // Use this for icecream app
+      body: SafeArea(child: IcecreamView()),
     );
   }
 }
